@@ -1,0 +1,31 @@
+#general settings
+title-text: "Grub"
+#title-font: "Liberation Mono Regular"
+title-color: "#98D9FF"
+desktop-image: "Sky_full.png"
+
+#boot menu
++ boot_menu {
+  left=50
+  width=80%
+  top=150
+  height=50%
+  item_color="#98D9FF"
+  selected_item_color="#FFFFFF"
+  scrollbar = true
+  scrollerbar_width = 20
+  item_spacing = 0
+}
+
+#progress bar
++ progress_bar {
+  id = "__timeout__"
+  left = 100
+  top = 450
+  height = 5
+  width = 50
+  text_color = "#98D9FF"
+  fg_color = "#084DBB"
+  border_color = "#084DBB"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+}
